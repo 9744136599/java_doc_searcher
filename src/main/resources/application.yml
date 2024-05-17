@@ -1,0 +1,12 @@
+server:
+  port: 9999
+
+Spring:
+  datasource:
+    url: jdbc:mysql://127.0.0.1:3306/blog_system_ssh?characterEncoding=utf8&useSSL=false&serverTimezone=Asia/Shanghai
+    username: root
+    password: liuyanluo
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+mybatis:
+  mapper-locations: classpath:mapper/**Mapper.xml
